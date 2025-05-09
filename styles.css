@@ -71,9 +71,14 @@ section.home a{
     border-radius:  20px ;
     background-color: rgba(148, 111, 8, 0.845);
     font-size: 10px;    
+    font-weight: bold;
+}
+section.home a:hover{
+    background-color: #d3a214;
     transform: scale(1.1);
     transition: 0.3s ease;
     font-weight: bold;
+    color: white;
 }
 section.about{
     background-image: url(gambar/yy.jpg);
