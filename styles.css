@@ -32,7 +32,7 @@ nav a{
 }
 nav a:hover{
     background-color: rgba(126, 102, 5, 0.674);
-    padding: 25px;
+    padding:0px;
 }
 section.home{
     background:url(gambar/7.gif);
@@ -131,7 +131,28 @@ section.product .container .card a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
     background-color: rgb(85, 60, 1);
+    transition: background-color 0.3s ease;
 }
+section.product .container .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+section.product .container .card a:hover {
+    background-color: #c49d0b;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+section.home a:hover {
+    background-color: #d3a214;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    font-weight: bold;
+    color: white;
+}
+
 
 section.contact{
     background-image: url(gambar/l.png);
