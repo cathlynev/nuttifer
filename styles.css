@@ -32,7 +32,6 @@ nav a{
 }
 nav a:hover{
     background-color: rgba(126, 102, 5, 0.674);
-    padding:0px;
 }
 section.home{
     background:url(gambar/7.gif);
@@ -72,6 +71,9 @@ section.home a{
     border-radius:  20px ;
     background-color: rgba(148, 111, 8, 0.845);
     font-size: 10px;    
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    font-weight: bold;
 }
 section.about{
     background-image: url(gambar/yy.jpg);
@@ -145,14 +147,6 @@ section.product .container .card a:hover {
     font-weight: bold;
     transform: scale(1.1);
 }
-section.home a:hover {
-    background-color: #d3a214;
-    transform: scale(1.1);
-    transition: 0.3s ease;
-    font-weight: bold;
-    color: white;
-}
-
 
 section.contact{
     background-image: url(gambar/l.png);
